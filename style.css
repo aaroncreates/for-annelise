@@ -3,10 +3,10 @@ box-sizing:border-box;
 }
 
 body{
-
 margin:0;
 font-family:'Segoe UI',sans-serif;
-color:white;
+color:#ffffff;
+text-shadow:0 2px 8px rgba(0,0,0,0.35);
 overflow:hidden;
 
 background:linear-gradient(
