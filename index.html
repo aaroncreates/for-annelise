@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="music" loop>
+<source src="assets/glue.mp3">
+</audio>
+
+<div id="hearts"></div>
+
+<!-- HERO -->
+
+<section id="hero" class="active">
+<div class="hero-card">
+
+<h1>Happy Birthday ❤️</h1>
+
+<img src="assets/anne2.png" class="birthday-photo">
+
+<p>
+To the most attractive and kind-hearted person who amazes the heck out of me.
+Whichever time of day you receive this message, good morning, afternoon, or evening, Annelise.
+</p>
+
+<button onclick="openMessage()">Open My Surprise</button>
+
+</div>
+</section>
+
+
+<!-- MESSAGE -->
+
+<section id="message">
+<div class="card">
+
+<h2>For My Princess aku gw 💌</h2>
+
+<p>
+Sayangku, nambah satu tahun, ya? Hari terbahagia ke-28 tahun kamu ini,
+semoga menjadi hari yang nggak akan kamu lupain.
+
+I don’t think there are enough words to explain how much I love you
+and how thankful I am that you chose to be by my side.
+
+Terima kasih buat semua hal-hal kecil yang kamu lakukan demi aku.
+I truly appreciate all the time and effort you give.
+</p>
+
+<button onclick="showGift()">Reveal Your Gift</button>
+
+</div>
+</section>
+
+
+<!-- GIFT -->
+
+<section id="gift">
+<div class="card">
+
+<h2>Your Surprise 🎁</h2>
+
+<div class="heart-btn" onclick="openGift()">💝</div>
+
+<div id="reward">
+
+<div class="code">
+RBPFAC9F9T6U76J4
+</div>
+
+<button onclick="redeem()">Redeem Robux</button>
+
+<button onclick="nextMessage()">Next Message ❤️</button>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- FINAL MESSAGE -->
+
+<section id="final">
+<div class="card">
+
+<h2>One More Thing 💌</h2>
+
+<p id="finalText">
+Before you go...
+</p>
+
+<div id="choices">
+
+<button onclick="showLove()">Did you like this surprise? ❤️</button>
+<button onclick="showLove()">Of course you did 😆</button>
+
+</div>
+
+<img src="assets/anneaaron4.png" class="birthday-photo" id="finalPhoto" style="display:none;">
+
+</div>
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
